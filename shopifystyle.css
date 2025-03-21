@@ -1,0 +1,32 @@
+.shipping{
+    background-color: pink;
+    margin-bottom: 0%;
+}
+.shipping p{
+    text-align: center;
+}
+.fa-location-dot{
+    right: 100px;
+}
+.title{
+    background-color: rgb(240, 229, 231);
+    
+
+}
+.title h1{
+    text-align: center;
+    padding-top: 8%;
+}
+.enticement{
+    display: flex;
+    background-color: rgb(214, 227, 231);
+    padding-left: 5%;
+    gap: 20%;
+}
+.navigation{
+    padding-bottom: 1%;
+    padding-left:30% ;
+}
+a{
+    gap: 5%;
+}

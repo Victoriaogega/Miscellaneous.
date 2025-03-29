@@ -1,0 +1,111 @@
+form{
+    display: flex;
+    border: 1px solid greenyellow;
+    width: 60%;
+    margin: 5% auto;
+ padding-bottom: ;
+   
+
+}
+.left_side{
+    margin-left: 5%;
+    padding-bottom: 10%;
+}
+.left_side input{
+width: 80%;
+height: 7%;
+border-radius: 3%;
+margin-top: 3%;
+margin-bottom: 3%;
+}
+.left_side label{
+    font-weight: 550;
+}
+.left_side p{
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 100%;
+}
+.left_side h1{
+    text-align: center;
+}
+.left_side button{
+    background-color: rgb(171, 115, 224);
+    margin-top:5%;
+    border: none;
+    width: 83%;
+    height: 8%;
+    color: white;
+    
+}
+.right_side img{
+    height: 100%;
+    width: 200%;
+}
+.right_side{
+   
+    margin-left: 6%;
+}
+#checkbox{
+    width: 6%;   
+}
+#lines {
+    position: relative;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 17px;
+}
+
+#lines:before {
+    content: " ";
+    display: block;
+    height: 0.5px;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    background: black;
+}
+
+#lines:after {
+    content: " ";
+    display: block;
+    height: 0.5px;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    background: black;
+    right: 0;
+}
+.icons{
+    display: flex;
+    gap: 50%;
+    margin-left: 5%;
+}
+.fa-facebook{
+    font-size: 150%;
+    height: 500%;
+    width: 20%;
+    color: rgb(50, 90, 103);
+}
+@media only screen and (max-width: 600px) {
+    body {
+     form{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+        width: 90%;
+     }
+     .left_side{
+        width: 110%;
+        padding-left: 0%;
+     }
+     .right_side img{
+        width: 30%;
+     }
+     #lines:after{
+width: 30%;
+     }
+#lines:before{
+    width: 30%;
+}
+    }
+  }
